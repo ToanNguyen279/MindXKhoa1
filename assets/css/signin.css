@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    outline: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #e9e9e9;
+
+}
+
+/*------------------------------------------- HEADER ------------------------------------------- */
+
+header {
+    /* position: fixed; */
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    background-color: #fff;
+}
+
+#header-left {
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_Nav>ul {
+    display: flex;
+    gap: 50px;
+}
+
+#logo {
+    width: 100px;
+    background-color: black;
+    margin: auto 0px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+#logo img {
+    width: 65px;
+    line-height: 100px;
+    vertical-align: middle;
+    /* display: block;
+    margin: auto; */
+}
+
+#logo a {
+    line-height: 100px;
+
+}
+
+.header_Right {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 100px;
+    float: right;
+}
+
+.header_Nav_Infor>li>a {
+    color: #888;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.header_Right>ul {
+    display: flex;
+    row-gap: 1px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.header_Right>ul>li {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e9e9;
+}
+
+.header_Right a>i {
+    font-size: 30px;
+}
+
+/*------------------------------------------- Infor ------------------------------------------- */
+
+.test {
+    height: 2000px;
+}
+
+/*------------------------------------------- FOOTER ------------------------------------------- */
+
+
+/*------------------------------------------- FOOTER 1 ------------------------------------------- */
+footer {
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.footer1 {
+    background-color: #262626;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px 50px 30px;
+    justify-content: space-around;
+    /* gap: 150px; */
+
+
+}
+
+.footer1_Infor,
+.footer1_Newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer1_Infor li {
+    color: #888;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer1 h1 {
+    color: #fff;
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.footer1_Social {
+    display: flex;
+    gap: 5px;
+}
+
+.footer1_Email {
+    display: flex;
+    gap: 0px;
+}
+
+.footer1_Social_Logo,
+.footer1_Email i {
+    font-size: 17px;
+    border: solid 1px #888;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1_Email input {
+    background-color: #262626;
+    border: solid 1px #888;
+    padding-left: 5px;
+    padding-right: 10px;
+
+}
+
+/*------------------------------------------- FOOTER 2 ------------------------------------------- */
+.footer2 {
+    background-color: #1c1c1c;
+    color: #888;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+/*------------------------------------------- FOOTER 3 ------------------------------------------- */
+
+.footer3 {
+
+    position: relative;
+}
+
+.footer3 img {
+    width: 100%;
+}
+
+.footer3_Infor {
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: #fff;
+}
+
+.footer3_Infor>button {
+    width: 177px;
+    height: 50px;
+    border-radius: 13px;
+    border: solid 1px #fff;
+    font-weight: bold;
+    color: black;
+    background-color: #fff;
+}
